@@ -1,0 +1,113 @@
+        body{
+            background-color: #e8ded9;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 600, 300, 400;
+            
+        }
+        h1{
+            margin: 0;
+            width: 300px;
+            
+        }
+        nav{ 
+            color: #5b8c6f;
+            margin: 0;
+            bottom: 0;
+            padding: 0;
+            width: 718px
+        }
+        
+        ul{
+            padding: 0%;
+        }
+        li{
+            display: flex;
+        }
+    
+        img{
+            display: none;
+        }
+        
+        .button{
+            width: 100%;
+            background-color: #61c386;
+            font-size: 12px;
+            padding: 12px;
+            border-radius: 10px;
+            color: white;
+            margin-top: 12px;
+            
+        }
+
+        .button:hover{
+            background-color: #f7e966;
+        }
+
+        .button2{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            background-color: #61c386;
+            font-size: 12px;
+            padding: 12px;
+            border-radius: 10px;
+            color: white;
+            
+        }
+        .button2:hover{
+            background-color: #f7e966;
+        }
+
+        .p2{
+            color: #5b8c6f;
+
+        }
+
+        .p1{
+            font-size: 25px;
+        }
+
+
+        @media screen and (min-width: 768px) {
+            H1{
+                width: 812px;
+                height: 85px;
+                float: left;
+
+            }
+            
+            nav{ width: 812px;
+                height: 85px;
+                float: right;
+            
+            }
+
+            div{
+                width: 812px;
+                height: 85px;
+            }
+
+            ul{
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                justify-content: space-between;
+
+            }
+            
+            .button{
+                width: auto;
+            }
+            
+            .button2{
+                width: auto;
+            }
+        
+            img{
+                display: unset;
+                margin: 0 auto;
+                float: right;
+            
+
+        }
+        };
